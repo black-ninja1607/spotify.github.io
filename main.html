@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify.png">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+          <div class="header">  <h1>Weekly top 10 - No Copyright Sounds</h1> </div>
+        <songItemList">
+            <div class="songItem">
+                <span class="space"><i id="0" class="fa-solid fa-play select songItemPlay"></i> <img alt="1"></span>
+                <span class="songName">Maan Meri Jaan</span>
+                <span class="songListPlay">02:32</span>
+            </div>      
+            <div class="songItem">
+                <span class="space"><i id="1" class="fa-solid fa-play select songItemPlay"></i> <img alt="1"></span>
+                <span class="songName">Airplane Thoughts</span>
+                <span class="songListPlay">02:32</span>
+            </div>     
+            <div class="songItem">
+                <span class="space"><i id="2" class="fa-solid fa-play select songItemPlay"></i> <img alt="1"></span>
+                <span class="songName">Ajab Si</span>
+                <span class="songListPlay">02:32</span>
+            </div>     
+            <div class="songItem">
+                <span class="space"><i id="3" class="fa-solid fa-play select songItemPlay"></i> <img alt="1"></span>
+                <span class="songName">Dark Red</span>
+                <span class="songListPlay">02:32</span>
+            </div>     
+            <div class="songItem">
+                <span class="space"><i id="4" class="fa-solid fa-play select songItemPlay"></i> <img alt="1"></span>
+                <span class="songName">Dil Nu</span>
+                <span class="songListPlay">02:32</span>
+            </div>     
+            <div class="songItem">
+                <span class="space"><i id="5" class="fa-solid fa-play select songItemPlay"></i> <img alt="1"></span>
+                <span class="songName">East Side</span>
+                <span class="songListPlay">02:32</span>
+            </div> 
+            <div class="songItem">
+                <span class="space"><i id="6" class="fa-solid fa-play select songItemPlay"></i> <img alt="1"></span>
+                <span class="songName">Kho Gaye</span>
+                <span class="songListPlay">02:32</span>
+            </div>
+            <div class="songItem">
+                <span class="space"><i id="7" class="fa-solid fa-play select songItemPlay"></i> <img alt="1"></span>
+                <span class="songName">Memories</span>
+                <span class="songListPlay">02:32</span>
+            </div> 
+            <div class="songItem">
+                <span class="space"><i id="8" class="fa-solid fa-play select songItemPlay"></i> <img alt="1"></span>
+                <span class="songName">Baarishein</span>
+                <span class="songListPlay">02:32</span>
+            </div> 
+            <div class="songItem">
+                <span class="space"><i id="9" class="fa-solid fa-play select songItemPlay"></i> <img alt="1"></span>
+                <span class="songName">Tu Aake Dekh Le</span>
+                <span class="songListPlay">02:32</span>
+            </div>
+        </div>
+        </div>
+
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            Maan Meri Jaan - KING
+        </div>
+    </div>
+
+<script src="https://kit.fontawesome.com/51c91f80e7.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
